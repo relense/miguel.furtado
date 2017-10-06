@@ -12,6 +12,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: 'white',
+    overflow: 'hidden',
   },
 
   mainContentContainer: {
