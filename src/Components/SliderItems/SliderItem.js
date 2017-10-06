@@ -3,6 +3,8 @@ import styles from './SliderItemStyles.js';
 import strings from '../../Strings/Strings.js';
 
 export default class SliderItem extends Component {
+
+
   render() {
     return (
       <div style={ styles.menuContainer }>

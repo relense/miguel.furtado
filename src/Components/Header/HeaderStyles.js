@@ -1,7 +1,7 @@
 const styles = {
 
   headerContainer: {
-    height: 75,
+    height: 45,
     width: '100%',
     margin: 10,
   },
@@ -11,13 +11,17 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'flex-end',
     marginRight: 20,
-    marginTop: 10,
     borderBottom: 'solid 1px'
   },
 
   navButtons: {
     margin: 20,
-    cursor: 'pointer'
+    cursor: 'pointer',
+    textTransform: 'uppercase',
+    letterSpacing: 2,
+    fontSize: 12,
+    
+
   },
 
 };
