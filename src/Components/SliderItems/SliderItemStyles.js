@@ -1,6 +1,7 @@
 const styles = {
 
   menuContainer: {
+    flex: 1,
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
