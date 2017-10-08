@@ -16,6 +16,7 @@ const styles = {
     margin: 10,
     textTransform: 'uppercase',
     letterSpacing: 2,
+    fontFamily: 'Sans-Serif',
   },
 
   learnButton: {
@@ -25,8 +26,8 @@ const styles = {
   	fontSize: 14,
   	padding: '15px 45px',
   	borderRadius: 5,
-  	mozBorderRadius: 5,
-  	webkitBorderRadius: 5,
+  	MozBorderRadius: 5,
+  	WebkitBorderRadius: 5,
   	border: '1px solid rgba(0,0,0,0.3)',
   	borderBottomWidth: 3,
     backgroundColor: '#699DB6',

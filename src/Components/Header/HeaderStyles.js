@@ -1,9 +1,11 @@
 const styles = {
 
   headerContainer: {
-    height: 45,
+    height: 50,
     width: '100%',
-    margin: 10,
+    margin: 0,
+    padding: 0,
+    backgroundColor: '#699DB6',
   },
 
   navContainer: {
@@ -11,7 +13,6 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'flex-end',
     marginRight: 20,
-    borderBottom: 'solid 1px'
   },
 
   navButtons: {
@@ -20,8 +21,7 @@ const styles = {
     textTransform: 'uppercase',
     letterSpacing: 2,
     fontSize: 12,
-    
-
+    color: '#fff'
   },
 
 };
