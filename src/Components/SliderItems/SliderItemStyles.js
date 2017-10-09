@@ -1,5 +1,14 @@
 const styles = {
 
+  MainMenuContainer: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'center',
+    border: 'solid 10',
+  },
+
   menuContainer: {
     flex: 1,
     display: 'flex',
@@ -47,6 +56,18 @@ const styles = {
 		borderColor: 'rgba(0,0,0,0.9)',
   },
 
+  arrowRight: {
+    alignItems: 'center',
+    alignSelf: 'center',
+    margin: 10,
+  },
+
+  arrowLeft: {
+    alignItems: 'center',
+    alignSelf: 'center',
+    margin: 10,
+  },
+  
 };
 
 export default styles;

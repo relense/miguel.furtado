@@ -7,7 +7,8 @@
 const strings = [
   [//[0]Normal Strings
     {name: 'subtitle1', type: 'message', message: 'Hi! My name is Miguel Furtado', menu: 'SliderItem' },
-    {name: 'subtitle2', type: 'message', message: 'I Am a Full Stack Developer', menu: 'SliderItem'}
+    {name: 'subtitle2', type: 'message', message: 'I Am a Full Stack Developer', menu: 'SliderItem'},
+    {name: 'subtitle3', type: 'message', message: 'I have developed a few things!', menu: 'SliderItem'},
   ],
   [//[1]Button Strings
     {name: 'LearnMore', type: 'button', message: 'Learn More'},
