@@ -14,7 +14,7 @@ const styles = {
     fontSize: 47,
     textAlign: 'center',
     margin: 10,
-    textTransform: 'uppercase',
+    //textTransform: 'uppercase',
     letterSpacing: 2,
     fontFamily: 'Sans-Serif',
   },
