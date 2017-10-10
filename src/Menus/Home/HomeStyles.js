@@ -17,6 +17,7 @@ const styles = {
 
   mainContentContainer: {
     height: '100%',
+    width: '100%',
     flex: 1,
     display: 'flex',
     justifyContent: 'center',

@@ -1,3 +1,5 @@
+
+
 const styles = {
 
   MainMenuContainer: {
@@ -7,6 +9,7 @@ const styles = {
     alignItems: 'center',
     alignSelf: 'center',
     border: 'solid 10',
+
   },
 
   menuContainer: {
@@ -23,7 +26,6 @@ const styles = {
     fontSize: 47,
     textAlign: 'center',
     margin: 10,
-    //textTransform: 'uppercase',
     letterSpacing: 2,
     fontFamily: 'Sans-Serif',
   },
@@ -56,18 +58,15 @@ const styles = {
 		borderColor: 'rgba(0,0,0,0.9)',
   },
 
-  arrowRight: {
-    alignItems: 'center',
-    alignSelf: 'center',
-    margin: 10,
+  arrowButtons: {
+    margin: 20,
   },
 
-  arrowLeft: {
-    alignItems: 'center',
-    alignSelf: 'center',
-    margin: 10,
-  },
-  
+  emptyDiv: {
+    height: 42,
+    width: 42,
+    margin: 20,
+  }
 };
 
 export default styles;

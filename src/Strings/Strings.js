@@ -6,16 +6,19 @@
 */
 const strings = [
   [//[0]Normal Strings
-    {name: 'subtitle1', type: 'message', message: 'Hi! My name is Miguel Furtado', menu: 'SliderItem' },
-    {name: 'subtitle2', type: 'message', message: 'I Am a Full Stack Developer', menu: 'SliderItem'},
-    {name: 'subtitle3', type: 'message', message: 'I have developed a few things!', menu: 'SliderItem'},
+    {id: 0, name: 'subtitle1', type: 'message', message: 'Hi! My name is Miguel Furtado.', menu: 'SliderItem1' },
+    {id: 1, name: 'subtitle2', type: 'message', message: 'I Am a Full Stack Developer.', menu: 'SliderItem1'},
+    {id: 2, name: 'subtitle3', type: 'message', message: 'I have developed a few things!', menu: 'SliderItem2'},
+    {id: 3, name: 'subtitle4', type: 'message', message: 'With the help of some tools.', menu: 'SliderItem2'},
+    {id: 4, name: 'subtitle5', type: 'message', message: 'Academic and Business Carrear!', menu: 'SliderItem3'},
   ],
   [//[1]Button Strings
-    {name: 'LearnMore', type: 'button', message: 'Learn More'},
-    {name: 'Home', type: 'button', message: 'Home'},
-    {name: 'About', type: 'button', message: 'About'},
-    {name: 'Portfolio', type: 'button', message: 'Portfolio'},
-    {name: 'Resume', type: 'button', message: 'Resume'},
+    {id: 0, name: 'LearnMore', type: 'button', message: 'Learn More'},
+    {id: 1, name: 'Home', type: 'button', message: 'Home'},
+    {id: 2, name: 'About', type: 'button', message: 'About'},
+    {id: 3, name: 'Portfolio', type: 'button', message: 'Portfolio'},
+    {id: 4, name: 'Resume', type: 'button', message: 'Resume'},
+    {id: 5, name: 'logo', type: 'text', message: 'M F'},
   ],
 
 ];

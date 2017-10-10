@@ -24,6 +24,22 @@ const styles = {
     color: '#fff'
   },
 
+  logoContainer: {
+    display: 'flex',
+    position: 'fixed',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    marginLeft: 20,
+    height: 50,
+    alignItems: 'center'
+  },
+
+  logo: {
+    color: '#fff',
+    cursor: 'pointer'
+  },
+
 };
 
 export default styles;
