@@ -14,7 +14,16 @@ export default class Header extends Component {
         <div style={ styles.navContainer }>
           <p style={ styles.navButtons }>{ strings[1][1].message }</p>
           <p style={ styles.navButtons }>{ strings[1][2].message }</p>
-          <p style={ styles.navButtons }>{ strings[1][3].message }</p>
+
+          <div class="dropdown">
+            <p style={ styles.navButtons3 }>{ strings[1][3].message }</p>
+              <div class="dropdownContentMain">
+                <a href="#" style={ styles.dropdownContent }>Personal Projects</a>
+                <a href="#" style={ styles.dropdownContent }>Academic Projects</a>
+                <a href="#" style={ styles.dropdownContent }>Professional Projects</a>
+              </div>
+          </div>
+
           <p style={ styles.navButtons }>{ strings[1][4].message }</p>
         </div>
       </div>
