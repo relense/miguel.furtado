@@ -10,7 +10,7 @@ const strings = [
     {id: 1, name: 'subtitle2', type: 'message', message: 'I Am a Full Stack Developer.', menu: 'SliderItem1'},
     {id: 2, name: 'subtitle3', type: 'message', message: 'I have developed a few things!', menu: 'SliderItem2'},
     {id: 3, name: 'subtitle4', type: 'message', message: 'With the help of some tools.', menu: 'SliderItem2'},
-    {id: 4, name: 'subtitle5', type: 'message', message: 'Academic and Business Carrear!', menu: 'SliderItem3'},
+    {id: 4, name: 'subtitle5', type: 'message', message: 'Academic and Business Career!', menu: 'SliderItem3'},
   ],
   [//[1]Button Strings
     {id: 0, name: 'LearnMore', type: 'button', message: 'Learn More'},
