@@ -34,13 +34,13 @@ export default class Header extends Component {
           <p style={ styles.navButtons }>{ strings[1][1].message }</p>
           <p style={ styles.navButtons }>{ strings[1][2].message }</p>
 
-            <div class="dropdown">
+            <div className="dropdown">
               <p onMouseEnter={this.handleMouseHover}
                  onMouseLeave={this.handleMouseHover}
                  style={ styles.navButtons }>{ strings[1][3].message }</p>
 
                  {this.state.isHovering &&
-                   <div class="dropdownContentMain">
+                   <div className="dropdownContentMain">
                      <a href="#" style={ styles.dropdownContent }>Personal Projects</a>
                      <a href="#" style={ styles.dropdownContent }>Academic Projects</a>
                      <a href="#" style={ styles.dropdownContent }>Professional Projects</a>

@@ -13,6 +13,7 @@ const styles = {
     flexDirection: 'column',
     backgroundColor: 'white',
     overflow: 'hidden',
+
   },
 
   mainContentContainer: {
@@ -20,7 +21,8 @@ const styles = {
     width: '100%',
     flex: 1,
     display: 'flex',
-    justifyContent: 'center',
+    backgroundColor: '#181717',
+
   }
 
 };

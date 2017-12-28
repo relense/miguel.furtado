@@ -5,7 +5,7 @@ const styles = {
     width: '100%',
     margin: 0,
     padding: 0,
-    backgroundColor: '#699DB6',
+    backgroundColor: '#181717',
   },
 
   navContainer: {

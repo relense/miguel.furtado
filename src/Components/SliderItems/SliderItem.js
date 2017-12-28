@@ -21,7 +21,16 @@ export default class SliderItem extends Component {
         <div style={ styles.menuContainer }>
             <h1 style={ styles.title }>{ strings[0][0].message }</h1>
             <h1 style={ styles.title }>{ strings[0][1].message }</h1>
-          <button style={ styles.learnButton }>{ strings[1][0].message }</button>
+            <h1 style={ styles.title }>{ strings[0][5].message }</h1>
+            <h1 style={ styles.title }>{ strings[0][6].message }</h1>
+          {/*<button style={ styles.learnButton }>{ strings[1][0].message }</button>
+          <div style={{backgroundColor: 'black', width: 700, height: 150, alignSelf: 'center', marginTop: 15, border: "1px solid #7F7E7E "}}>
+          <input
+                style={{height: 25, width: 700, backgroundColor: 'transparent', color: 'white', border: "0px solid", outline: 'none', marginLeft: 2}}
+                placeholder="Check the developer details. EX: developer.age" type="text"
+                onChangeText={(text) => this.setState({text})}/>
+          </div>
+          */}
         </div>
       );
 
@@ -30,7 +39,7 @@ export default class SliderItem extends Component {
         <div style={ styles.menuContainer }>
             <h1 style={ styles.title }>{ strings[0][2].message }</h1>
             <h1 style={ styles.title }>{ strings[0][3].message }</h1>
-          <button style={ styles.learnButton }>{ strings[1][0].message }</button>
+            <button style={ styles.learnButton }>{ strings[1][0].message }</button>
         </div>
       );
     } else if(this.state.index === 2) {

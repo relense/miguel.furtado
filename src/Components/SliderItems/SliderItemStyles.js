@@ -1,30 +1,29 @@
-
-
 const styles = {
 
   MainMenuContainer: {
     flex: 1,
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
-    alignSelf: 'center',
     border: 'solid 10',
+    alignSelf: 'center',
 
   },
 
   menuContainer: {
-    flex: 1,
-    display: 'flex',
+    display: 'inline-flex',
     flexDirection: 'column',
-    alignItems: 'center',
-    alignSelf: 'center',
     border: 'solid 10',
+    backgroundColor: '#181717',
+    backgroundSize: 'cover',
+    width: 'auto',
+    margin: 'auto',
+    justifyContent: 'center',
+
   },
 
   title: {
-    width: '80vw',
-    fontSize: 47,
-    textAlign: 'center',
+    fontSize: 20,
+    color: 'white',
     margin: 10,
     letterSpacing: 2,
     fontFamily: 'Sans-Serif',
@@ -45,8 +44,11 @@ const styles = {
 	  borderColor: 'rgba(0,0,0,0.3)',
 	  textShadow: '0 1px 0 rgba(0,0,0,0.5)',
 	  color: '#FFF',
-    marginTop: 20
-  },
+    marginTop: 20,
+    width: 300,
+    alignSelf: 'center',
+
+    },
 
   learnButtonHover: {
     backgroundColor: '#e3e3e3',
